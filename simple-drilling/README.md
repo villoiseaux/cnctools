@@ -3,7 +3,7 @@ Here are two python scripts to manage drilling with swith a drill or with a mill
 ## json2gcode.py  
 To convert Translate Excellon .xln files from EAGLE PCB to a standard description JSON file
 
-```sh
+```
  usage: xln2json.py [-h] [-w OUTFILE] filename
  Translate Excellon .xln files to gcode for CNC3018
  positional arguments:
