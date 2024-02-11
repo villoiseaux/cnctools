@@ -6,7 +6,7 @@ import json
 
 toolbox={}
 
-parser = argparse.ArgumentParser(description='Translate Excellon .xln files to gcode for CNC3018')
+parser = argparse.ArgumentParser(description='Translate JSON standard files files to gcode for CNC3018')
 parser.add_argument('filename', help='xln (text) file')
 parser.add_argument('-w', type=argparse.FileType('w', encoding='latin-1'), dest='outfile', help='the output file')
 args = parser.parse_args()
