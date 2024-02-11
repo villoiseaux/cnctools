@@ -1,5 +1,6 @@
 # cnctools
 Tools to be used with CNC3018 CNC3040...
+List of sub-projects:
 ## simple-drilling 
 Tools to be used 
 Here are two python scripts to manage drilling with swith a drill or with a mill
